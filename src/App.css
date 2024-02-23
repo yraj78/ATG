@@ -1,0 +1,152 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  color: #fff;
+  width: 1247px;
+  height: 60px;
+}
+
+.logo {
+  width: 162.57px;
+  height: 24px;
+  margin-left: 119px !important;
+
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #dee2e6;
+  width: 360px;
+  height: 42px;
+  border-radius: 21px;
+  
+}
+
+.search-bar input {
+  padding: 5px;
+  border: none;
+  background-color: #dee2e6;
+  width: 100%;
+ 
+  border-radius: 21px;
+}
+
+.search-bar .fa-search {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+
+}
+
+.buttons .btn {
+  margin-left: 20px;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+
+.custom-btn {
+  cursor: pointer;
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px 15px;
+  margin-right: 0;
+}
+
+.nav {
+  margin-left: 135px;
+  position: relative;
+}
+
+.nav li {
+  margin-right: -55px; 
+  font-weight: 600;
+}
+
+.nav li:first-child .custom-btn {
+  color: black;
+}
+
+.nav li:not(:first-child) .custom-btn {
+  color: #dee2e6; 
+}
+
+.custom-btn-active {
+  text-decoration: underline;
+}
+
+.nav-link:not(.active) {
+  color: #dae3ec;
+}
+.custom-btn-primary {
+  background-color: #007bff;
+  margin-right: 60px;
+  border: none;
+  border-radius: 6px;
+}
+
+.custom-btn-secondary {
+  background-color: #dee2e6;
+  border: none;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+.horizontal-line {
+  position: absolute;
+  left: 160px;
+  top:55px;
+  bottom: 0;
+  width: 88%;
+  height: 2px;
+  background-color: #000;
+ 
+}
+
+.posts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top:22px;
+  margin-left: 60px;
+}
+.post{
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+
+
+.post-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+
+
+.post-stats {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.views {
+  margin-right: 10px; 
+}
+.custom-modal .modal-content {
+  max-width: 800px; 
+  margin: 0 auto;
+}
